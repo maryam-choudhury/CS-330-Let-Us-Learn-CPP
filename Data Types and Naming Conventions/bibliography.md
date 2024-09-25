@@ -19,6 +19,10 @@ These are sources I learned from while writing this section of the repository. U
 **Naming Requirements for Variables:**
 - https://www.w3schools.com/cpp/cpp_variables_identifiers.asp#:~:text=Names%20must%20begin%20with%20a,cannot%20be%20used%20as%20names
 
+ **Lifetime and Scope:**
+ - https://www.geeksforgeeks.org/scope-of-variables-in-c/
+ - https://en.cppreference.com/w/cpp/language/lifetime
+
 **Automatic Garbage Collection:**
 - https://www.geeksforgeeks.org/garbage-collection-python/
 
@@ -34,3 +38,4 @@ These are sources I learned from while writing this section of the repository. U
 **Complex Data Types**
 - https://byjus.com/maths/complex-numbers/#:~:text=Complex%20Numbers%20in%20Maths,an%20imaginary%20number%20(Im).
 https://en.cppreference.com/w/cpp/numeric/complex
+
