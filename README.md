@@ -1,2 +1,2 @@
-#Welcome 
-This is a repository that aims to give readers an introduction to C++. 
+# Welcome 
+This is a repository aiming to give readers an introduction to C++. 
