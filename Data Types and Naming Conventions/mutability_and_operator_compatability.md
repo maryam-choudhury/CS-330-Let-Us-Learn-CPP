@@ -67,4 +67,32 @@ Yes, C++ allows mixed type operations, via a combination of implicit type conver
 
 
 ## At what point are identifier names and operator symbols bound in C++? For example if you declare a variable, class name, function name etc., when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
-As a static language, identifier names and operators are bound at compile time. This means that when started, the compiler will associate names with their corresponding memory address and type.
+As a static language, identifier names and operators are bound at compile time. This means that when started, the compiler will associate names with their corresponding memory address and type. You can access these memory locations by using the & operator. Below is an example.
+<br>
+```
+#include <iostream>
+using namespace std;
+int main() {
+    int num = 10;           
+    int* numPntr = &num;     // Declaring a pointer 
+
+    cout << "num : " << num << endl;  // Printing the value of num
+    cout << "numPntr: " << numPntr << endl;  // Printing the address in numPntr (same as &num)
+    cout << "*numPntr: " << *numPntr << endl;  // Printing the value pointed to by numPntr (same as num)
+}
+```
+<br>
+Your output would look something like this: 
+
+<blockquote><p> 
+num : 10 <br>
+numPntr: 0x16b95ae20 <br>
+*numPntr: 10 <br>
+</p></blockquote>
+<br>
+<p>While looking through this code, you will see the use of & to find the address of the variable num, and that this addres was then stored in numPntr, an example of something called a pointer. Pointers are most commonly used to store the memory address of an object. The pointers 'type' matches the type of the variable whose adress you are trying to locate. In the example above, we are looking for the variable num, ehcih is an int. Thus, to declare our pointer we wrote: </p> <br> 
+<blockquote><p> 
+int* numPntr = &num; // notice the value stored in numPntr is the address of num</p>
+</p></blockquote>
+
+<p>The asterisk (*) is there simply because that is the correct syntax for declaring a pointer (you insert it directly after your pointer type).</p>
