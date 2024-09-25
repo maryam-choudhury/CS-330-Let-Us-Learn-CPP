@@ -10,5 +10,31 @@ Other combinations are less expected and less graceful, such as how adding a dou
 ## What Instantiating array Taught Us
 C++ enforces type homogeneity in arrays and vectors, which is a limitation languages such as Python and Java don’t have. This means that all variable types within these structures must be the same. If you want to put twp different variable tyes together in a similar fashion as with an array, you will have to resort to more complex structures, such as a struct or union. 
 
+## Are There Limitations on much/long we can work with these variable?
+Yes! This is where the concepts of 'lifetime' and 'scope' come into play. <br>
+
+#### Scope
+Where you have access to a variable. The two most common variable scopes are those of local and global variable. <br> <br> 
+Local variables are declared inside a function and can only be accessed inside said function. Therefore, their scope is limited to the function. On the other hand, global variables are declared outsdide of all functions at the top of a file, can be accessed all throughout the program, and, thus, have a cope that lasts the runtime of the program. Below is an example of code the implements both a local and global variable. Copy and paste this code into a file in your IDE and see what you get when you run it!
+```
+#include<iostream> 
+using namespace std; 
+{
+int globalVar = 5; // Global variable
+
+int main() {
+    int localVar = 10; // Local variable
+    cout << localVar << endl; // Works, local variable still in scope
+}
+cout << globalVar << endl; // Global variable works
+cout << localVar << endl; // Error: out of scope, your local variable does not scope this far!
+}
+```
+
+#### Lifetime
+Lifetime starts when a variable is initialized and memory is allocated to it. <br> <br> 
+User defined variables, objects, usually have a lifetime that ends when the object goes out scope. There are many exceptions to this objects rule, and things get even more complicated when you learn about 'reference' lifetimes. If you are intersted in learning more about these topics, please visit [this](https://en.cppreference.com/w/cpp/language/lifetime) page by cpprefference, and refer to the accordingly labeled learning resources in the bibliography. For now, I guess you could say that information is out of 'scope'!
+
 ## Miscellaneous Pitfalls
 [Automatic garbage collection](https://www.geeksforgeeks.org/garbage-collection-python/) refers to programming languages automatically eliminating objects that are no longer being referenced. C++ does not have this feature, so you have to be careful and manage memory resources with intention.
+
