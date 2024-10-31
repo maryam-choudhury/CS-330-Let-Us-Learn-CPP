@@ -35,9 +35,9 @@ There are so many! As s a reminder, conventions are different than syntax rules.
     - A noun
     - No underscores
     - Note:
-      - Class attributes (aka static/private memeber variables) are variables associated with the class itself, and declared inside the class definition. When naming them, it's common to see lowerase m as the names prefix. You'll see examples of this in the practice files (mName, mAge).
+      - Class attributes (aka static/private memeber variables) are variables associated with the class itself, and declared inside the class definition. 
 - Instance variables
-      -   Unlike private member variables, these variables belong to class object.
+      - Unlike private member variables, these variables belong to class object.
       - The usual suspects: beginning with a letter, no special characters etc.   
 - Functions
     - start with a verb, an action word. For example, 'displayDetails'.
