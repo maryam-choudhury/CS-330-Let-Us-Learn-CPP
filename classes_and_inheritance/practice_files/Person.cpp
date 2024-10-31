@@ -5,25 +5,26 @@ using namespace std;
 // Creating the base class 'Person'
 class Person {
 protected:
-    string mName;
-    int mAge;
+    string Name;
+    int Age;
 
 public:
     // Constructor for Person
-    Person(string name, int age) : mName(name), mAge(age) {}
+    Person(string name, int age) : Name(name), Age(age) {}
 
     // This function displays a Person attribute's details
     void displayDetails() {
-        cout << "Name: " << mName << ", Age: " << mAge << endl;
+        cout << "Name: " << Name << ", Age: " << Age << endl;
     }
 
     // Function to set name
     void setName(string name) {
-        mName = name;
+        Name = name;
     }
 
     // Function to set age
     void setAge(int age) {
-        mAge = age;
+        Age = age;
     }
 };
+
