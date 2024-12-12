@@ -2,7 +2,7 @@
 If you have already run through the practice file for this section, you have probably realized that C++ is pretty strict about declaring variable types and adhering to them during operations. This helps with type safety, otherwise known as preventing type errors, but it also can be limiting. Below, I will go through the situations encountered in the practice examples in further detail so we can explore these limitations.
 
 ## What Adding int and float Taught Us
-When adding Ints and floats, C++ converts the int to a float before completing the operation. This concept is known as a widening conversion and ensures we are not losing precision. Since we are changing a variable into something increasingly specific, we are "widening." An example of narrowing includes storing a double in an int variable; this is a loss of precision as the decimal values are dropped. This is also an example of implicit casting. 
+When adding ints and floats, C++ converts the int to a float before completing the operation. This concept is known as a widening conversion and ensures we are not losing precision. Since we are changing a variable into something increasingly specific, we are "widening." An example of narrowing includes storing a double in an int variable; this is a loss of precision as the decimal values are dropped. This is also an example of implicit casting. 
 <br>
 <br>
 Other combinations are less expected and less graceful, such as how adding a double and an int will result in a floating-point variable type.
