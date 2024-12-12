@@ -1,12 +1,11 @@
 ## A Brief History
-C++, originally named ‘C with Class’, was created by computer scientist Bjarne Stroustrup at Bell Telephone Laboratories. Bjarne created C++ to fulfill his goals of creating a more flexible version of the C programming language, incorporating features he found useful in languages utilizing object orientated programming paradigms, such as Simula.
+C++, originally named ‘C with Class,’ was created by computer scientist Bjarne Stroustrup at Bell Telephone Laboratories. Bjarne created C++ to fulfill his goals of creating a more flexible version of the C programming language, incorporating features he found useful in languages utilizing object orientated programming paradigms, such as Simula.
 
 ## What is C++ used for?
-
-C++ is a general purpose programming language that has made it’s mark across almost every industry. It is often the first choice when building software infrastructure and applications, as by nature C++ can manipulate hardware directly, and can be optimized to efficiently utilize system resources when there is limited hardware space available.
+C++ is a general-purpose programming language that has made its mark across almost every industry. It is often the first choice when building software infrastructure and applications, as by nature, C++ can manipulate hardware directly and can be optimized to efficiently utilize system resources when there is limited hardware space available.
 <br>
 <br>
-C++ is popularly used in Game development, powering industry giants such as World of Warcraft, as well as game engines which like Unreal Engine, creating complex 3D environments. It is also frequently used to code items in the IoT, otherwise known as the ‘Internet of Things’. The IoT refers to everyday devises that connect to the internet, such as household appliances and medical equipment. As previously mentioned, C++ is able to efficiently use limited computing resources, making it ideal for commonplace devices. To expand on C++ and the internet, the language is used in the backend of web browsers such as Google Chrome and Mozilla Firefox, relatively speeding up the data retrieval process. This is just the surface of C++ applications; it also contributes to database management systems, VR applications and financial modeling. The impact of C++ in inescapable in this world (and beyond, if you consider NASA’s use of C++ to build autonomous driving systems form Mars Rovers).
+C++ is popularly used in game development, powering industry giants such as World of Warcraft, as well as game engines, which, like Unreal Engine, create complex 3D environments. It is also frequently used to code items in the IoT, otherwise known as the ‘Internet of Things.’ The IoT refers to everyday devices that connect to the internet, such as household appliances and medical equipment. As previously mentioned, C++ is able to efficiently use limited computing resources, making it ideal for commonplace devices. To expand on C++ and the internet, the language is used in the backend of web browsers such as Google Chrome and Mozilla Firefox, relatively speeding up the data retrieval process. This is just the surface of C++ applications; it also contributes to database management systems, VR applications, and financial modeling. The impact of C++ is inescapable in this world (and beyond, if you consider NASA’s use of C++ in building autonomous driving systems for Mars Rovers).
 
 ## How to Install C++ on Your Device
 
@@ -32,14 +31,14 @@ You will see example comments in the helloWorld file!
 
 ### Does C++ come with a recommended programming environment? What is it? If not, how did you pick the one that you'll be using?
 
-C++ does not ‘come with’ a recommended coding environment, but VS Code is widely considered the best and easiest to use. It is also free and open-source to boot! I chose this IDE for those reasons, and also because I had used it previously and was thus comfortable. If you prefer a different compatible IDE, please feel free to use it!
+C++ does not ‘come with’ a recommended coding environment, but VS Code is widely considered the best and easiest to use. It is also free and open-source to boot! I chose this IDE for those reasons and also because I had used it previously and was thus comfortable. If you prefer a different compatible IDE, please feel free to use it!
 
 ### How do you run programs in C++?
 
 It depends on if you are working in the terminal or an IDE. I am using VS Code, which acts as a pre-processor for the source code.
 <br>
 <br>
-When you hit run on VS code post debugging, the C++ source code is translated into machine language code by the compiler, clang in my case, and stores it on the machine’s disk with the proper file extension. A software tool known as a linker then comes into play, taking the object code from the compiler and creating an executable file. The executable file loaded to the disk from memory, and the CPU then executes the program. 
+When you hit run on VS Code post debugging, the C++ source code is translated into machine language code by the compiler, clang in my case, and stored on the machine’s disk with the proper file extension. A software tool known as a linker then comes into play, taking the object code from the compiler and creating an executable file. The executable file is loaded to the disk from memory, and the CPU then executes the program.
 <br>
 <br>
-Amazingly, this is all in the background with VS Code! To you, running the code is as simple as clicking the ‘play’ button. The specific format you need in your source code for your code to successfully one is displayed in the helloWorld file in this folder.
+Amazingly, this is all in the background with VS Code! To you, running the code is as simple as clicking the ‘play’ button. The specific format you need in your source code for your code to successfully run is displayed in the helloWorld file in this folder.
