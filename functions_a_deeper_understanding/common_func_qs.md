@@ -12,15 +12,12 @@
 <p>Look at this section's practice file for some pre-written functions you can mess around with!</p>
 
 ## Are there any rules about where the function has to be placed in your code file so that it can run?
-<p> The C++ compliler does not enforce strict rules on where functions are placed, but there are many standard practices that exist to boost the readability and organization of your code. 
-A common convention is placing your function declarations and definitions seperate from your main function,
-only calling other functions in main(). This makes for an 'elegant' code. </p>
+<p> The C++ compiler does not enforce strict rules on where functions are placed, but there are many standard practices that exist to boost the readability and organization of your code. A common convention is placing your function declarations and definitions separate from your main function, only calling other functions in main(). This makes for an 'elegant' code. </p>
 
 
 ## Does C++ support recursive functions?
-<p> First off, you may be asking: "What even is a recursive functions?". Let's address that  question first!
-A recursive function is a function that calls itself in order to solve a problem, making it easier for the programmer to accomplish their goal, as they can break their problem down into simpler subproblems.
-So, that's perfectly clear and we will never have to go through this again. No? Let's look at an example to get a better idea of what's going on. </p>
+<p> First off, you may be asking: "What even is a recursive function?". Let's address that question first! 
+  A recursive function is a function that calls itself in order to solve a problem, making it easier for the programmer to accomplish their goal, as they can break their problem down into simpler subproblems. So, that's perfectly clear, and we will never have to go through this again. No? Let's look at an example to get a better idea of what's going on.</p>
 
 ```cpp
 int sum(int k) {
@@ -38,7 +35,7 @@ int main() {
 ```
 
 ## Can functions in C++ accept multiple parameters? Can they be of different data types?
-<p> Yes to both questions! C++ functions can acfept multiple parameters that can be of the same or different data type. To see this in action, refer to the practice file for this section!</p>
+<p> Yes, to both questions! C++ functions can accept multiple parameters that can be of the same or different data type. To see this in action, refer to the practice file for this section!</p>
 
 ## Can functions in C++ return multiple values at the same time?
 <p> Many a new C++ programmer asks this question, only to be dissapointed that the answer is, natively, no. However, do not fret! There are a couple of work arounds. </p>
@@ -52,10 +49,7 @@ Examples of structures and arrays being used to return multiple values can be fo
 </p>
 
 ## Is C++ pass-by-reference or pass-by-value?
-<p> Without any frills, C++ is pass-by-value, meaning that a copy of the argument is what is passed to the function. Because of this, modifying the
-parameter within that same function does not affect the original value. However, C++ also supports pass-by-reference, where a reference to the argument is passed to the function
-so modifying it (now technically a parameter as it is inside a function) changes the original value. Faithful repository issues will again have a cheeky advantage, as we covered this topic in the last section (path: main>Data Types and Naming Conventions>mutability_and_operator_compatability (see the question "At what point are identifier...").
-To get everyone on the same page, here is a TLDR: You can access memory locations by using the & operator. Once you access that adress, there are a couple of clever ways to modify the program's original data.</p>
+<p> Without any frills, C++ is pass-by-value, meaning that a copy of the argument is what is passed to the function. Because of this, modifying the parameter within that same function does not affect the original value. However, C++ also supports pass-by-reference, where a reference to the argument is passed to the function, so modifying it (now technically a parameter as it is inside a function) changes the original value. Faithful repository readers will again have a cheeky advantage, as we covered this topic in the last section (path: main>Data Types and Naming Conventions>mutability_and_operator_compatability (see the question "At what point are identifier..."). To get everyone on the same page, here is a TLDR: You can access memory locations by using the & operator. Once you access that address, there are a couple of clever ways to modify the program's original data.</p>
 
 ```cpp
 void increment(int &x) { //accessing the address of x
