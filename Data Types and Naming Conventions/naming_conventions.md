@@ -1,19 +1,19 @@
 # Naming Conventions in C++:
 
 **What are the naming requirements for variables in C++?** <br/> 
-Names must begin with a letter or underscore, not a number
-They cannot contain special characters such as !, #, %, whitespace
-They are case sensitive, ie capitalization 
-They can’t be keyword names
-Strong Convention but not required: start w/ a lowercase letter
+- Names must begin with a letter or underscore, not a number
+- They cannot contain special characters such as !, #, %, whitespace
+- They are case sensitive, ie capitalization 
+- They can’t be keyword names
+- Strong Convention but not Required: start w/ a lowercase letter
 
 <br/> 
 <br/> 
 
 **What about naming conventions? Are those enforced by the compiler/interpreter, or just standards in the community?** <br/>
 In the dataTypesandNaming file in this folder, we go through the different naming conventions in C++ for primitive, derived, and abstract data types with examples. For a quick reference list, visit this link.
-Naming conventions are not requirements, so they are not enforced by the compiler. However, it’s strongly recommended and considered good practice to stick to conventions for a multitude of reasons. Chiefly, sticking to naming conventions increases the readability of your code, as people know what to look for when identifying variable types. This in turn makes your code easier to maintain and collaborate on. 
-Here’s a comparable metaphor: You could choose to author a book in conventional English, but you could author it in Pig Latin. Many fluent English speakers would still be able to read your book, but they’d probably be less willing to do so, and may even plug it into a translator. And let’s say your Pig Latin conventions aren’t consistent, as is often the case when disregarding programming conventions. Now, your readers are more confused, as the same rules do not apply everywhere in your code. 
+Naming conventions are not requirements, so they are not enforced by the compiler. However, it’s strongly recommended and considered good practice to stick to conventions for a multitude of reasons. Chiefly, sticking to naming conventions increases the readability of your code, as people know what to look for when identifying variable types. This, in turn, makes your code easier to maintain and collaborate on. <br>
+Here’s a comparable metaphor: You could choose to author a book in conventional English, but you could author it in Pig Latin. Many fluent English speakers would still be able to read your book, but they’d probably be less willing to do so and may even plug it into a translator. And let’s say your Pig Latin conventions aren’t consistent, as is often the case when disregarding programming conventions. Now, your readers are more confused, as the same rules do not apply everywhere in your code.  
 
 <br/> 
 <br/> 
